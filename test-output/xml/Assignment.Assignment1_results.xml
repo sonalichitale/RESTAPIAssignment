@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Dummy_Json_data"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.200">
+    <properties></properties>
+
+
+
+            <testcase
+                name="getcall"
+                time="1.334"
+                classname="Assignment.Assignment1">
+            </testcase>
+            <testcase
+                name="deletecall"
+                time="2.520"
+                classname="Assignment.Assignment1">
+            </testcase>
+            <testcase
+                name="post_data"
+                time="28.346"
+                classname="Assignment.Assignment1">
+            </testcase>
+</testsuite>

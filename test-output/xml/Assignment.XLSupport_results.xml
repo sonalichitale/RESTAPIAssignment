@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="RestAPIAssignment"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.142">
+    <properties></properties>
+
+
+
+            <testcase
+                name="do_all_web_app_test"
+                time="1.142"
+                classname="Assignment.XLSupport">
+            </testcase>
+</testsuite>

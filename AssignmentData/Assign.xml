@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Dummy JSon Validate data" verbose="1" >
+    <test name="Dummy_Json_data" >
+        <parameter name="url" value="https://petstore.swagger.io/v2/pet"></parameter>
+        <parameter name="id" value="320"></parameter>
+        <parameter name="name" value="Maggi"></parameter>
+        <classes>
+            <class name="Assignment.Assignment1" />
+        </classes>
+    </test>
+</suite>
