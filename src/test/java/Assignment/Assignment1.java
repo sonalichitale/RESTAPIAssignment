@@ -37,9 +37,9 @@ public class Assignment1 {
         RJB = new PostJSON();
     }
 
-    //@Parameters({"url"})
+    @Parameters({"url"})
     @Test(priority = 0)
-    public void post_data()
+    public void post_data(String url)
     {
         read_And_Print_XL_AsPerTestData("Name");
 
@@ -52,7 +52,7 @@ public class Assignment1 {
                     contentType(ContentType.JSON).
                     body(RJB.CreatePostJson(Hash.getKey().toString(),Hash.getValue().toString())).
                     when().
-                    post("https://petstore.swagger.io/v2/pet");
+                    post(url);
             int status_code =res.statusCode();
             response_body =res.getBody().asString();
             System.out.println(status_code);
